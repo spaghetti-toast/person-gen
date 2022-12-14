@@ -1,9 +1,9 @@
 extern crate fastrand;
 
-mod person_gen;
+mod person;
 mod names;
 
-use person_gen::*;
+use person::*;
 use names::*;
 
 const SEED : i64 = 0;
